@@ -28,6 +28,10 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+html {
+	background: url(http://www.thinkful.com/courses/curricula/FEWD-001/version/4/asset/first-background.jpg);
+	background-size: cover;
+}
 body {
 	line-height: 1;
 	background-color: LightGray;
@@ -49,4 +53,12 @@ table {
 }
 div {
 	border: 1px solid Chocolate;
+}
+.top-navigation{
+	background-color: #fff;
+}
+.top-navigation> .content{
+	width:970px;
+	height: 70px;
+	margin: 0 auto;
 }
