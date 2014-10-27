@@ -22,6 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	box-sizing: border-box;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -30,7 +31,8 @@ footer, header, hgroup, menu, nav, section {
 }
 html {
 	background: url(http://www.thinkful.com/courses/curricula/FEWD-001/version/4/asset/first-background.jpg);
-	background-size: cover;
+	background-position: 0 bottom;	
+
 }
 body {
 	line-height: 1;
@@ -62,3 +64,33 @@ div {
 	height: 70px;
 	margin: 0 auto;
 }
+.content{
+	box-sizing:border-box;
+	padding: 0 15px;
+}
+.top-navigation .logo {
+	height: 70px;
+}
+.top-navigation .links {
+	float: right;
+	font-family: 'Roboto', sans-serif;
+	color: #838994;
+	font-size: 16px;
+	margin-top: 25px;
+	-webkit-font-smoothing: antialiased;
+}
+.top-navigation .links li {
+	display: inline-block;
+	margin-left: 25px;
+}
+.top-navigation .links .active {
+	color: #4c5058;
+	font-weight: 500;
+}
+
+.top-navigation .links li:hover {
+	cursor: pointer;
+	color: #333333;
+}
+
+
